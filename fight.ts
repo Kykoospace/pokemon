@@ -17,4 +17,8 @@ export function letsFight(pok1: Pokemon, pok2: Pokemon) {
         pok2.logStatus();
         turn = !turn;
     }
+
+    let winner = (pok1.isAlive()) ? pok1 : pok2;
+
+    console.log(winner.name + ' won !');
 }

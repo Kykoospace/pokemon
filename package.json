@@ -2,9 +2,10 @@
   "name": "pokemon",
   "version": "1.0.0",
   "description": "TP angular",
-  "main": "index.js",
+  "main": "main.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node ./node_modules/typescript/bin/tsc main.ts && node main.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/Kykoospace/pokemon#readme",
   "devDependencies": {
+    "@types/node": "^13.7.1",
     "jest": "^25.1.0",
     "ts-jest": "^25.2.0",
     "typescript": "^3.7.5"
