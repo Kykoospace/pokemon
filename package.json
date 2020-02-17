@@ -1,0 +1,27 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "TP angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kykoospace/pokemon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kykoospace/pokemon/issues"
+  },
+  "homepage": "https://github.com/Kykoospace/pokemon#readme",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@types/jest": "^25.1.2"
+  }
+}
